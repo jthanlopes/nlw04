@@ -30,7 +30,6 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
 
   function startCountDown() {
     setIsActive(true);
-    startNewChallenge();
   }
 
   function resetCountDown() {
